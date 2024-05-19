@@ -1,0 +1,63 @@
+#container {
+  padding: 3rem;
+  color: white;
+  background-color: rgb(15, 15, 70);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+  width: fit-content;
+
+  /* Centering using position */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#score-container {
+  display: flex;
+  width: 80%;
+  gap: 8rem;
+}
+h1 {
+  margin-left: 3rem;
+}
+#btn-div {
+  margin-left: 0.9rem;
+  width: fit-content;
+}
+span {
+  margin-top: 1rem;
+  text-align: center;
+  display: block;
+  width: 13rem;
+  height: 140px;
+  font-size: 8rem;
+  background-color: black;
+  color: red;
+}
+input {
+  width: 3.5rem;
+  height: 2rem;
+  background-color: rgb(15, 15, 70);
+  color: gray;
+  border: 1.5px solid white;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+button {
+  width: max-content;
+  margin: auto;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  background: black;
+}
+
+#home,
+#guets {
+  display: flex;
+  flex-direction: column;
+}
